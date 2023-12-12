@@ -33,15 +33,17 @@
     },
     "platformConfig": {
         "macos": {
-            "bundleId": "com.example.obs-plugintemplate"
+            "bundleId": "com.gofundme.obs-overlay"
         }
     },
-    "name": "obs-plugintemplate",
+    "name": "gofundme-donations-overlay",
     "version": "1.0.0",
-    "author": "Your Name Here",
-    "website": "https://example.com",
-    "email": "me@example.com",
+    "author": "GoFundMe LLC",
+    "website": "https://gofundme.com",
+    "email": "mvaughn@gofundme.com",
     "uuids": {
-        "windowsApp": "00000000-0000-0000-0000-000000000000"
+        "macosPackage": "com.gofundme.obs-overlay.package",
+        "macosInstaller": "com.gofundme.obs-overlay.installer",
+        "windowsApp": "GoFundMeOBSOverlayInstaller"
     }
 }
